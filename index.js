@@ -30,3 +30,8 @@ let destructivelyDeleteFromObjectByKey = function(object, key) {
     Deletes key-value pair from original object destructively without using 'delete object.key' method.
     */
 };
+
+// Tests
+
+recipe1 = updateObjectWithKeyAndValue(recipes, 'omelette', '3 eggs');
+console.log(recipe1);
