@@ -1,7 +1,7 @@
 let recipes = {};
 
 let updateObjectWithKeyAndValue = function(object, key, value) {
-  return Object.assign({}, object, { [key]: value })
+  return Object.assign({}, object, { [key]: value });
   /*
   '{}' is an new empty object that will store the update values without mutating the original object.
   'object' is the original object being referenced.
@@ -9,7 +9,8 @@ let updateObjectWithKeyAndValue = function(object, key, value) {
   */
 };
 
-let destructivelyUpdateObjectWithKeyAndValue = function() {
-
-
+let destructivelyUpdateObjectWithKeyAndValue = function(object, key, value) {
+  object[key] = value;
+  return object;
+  // Updates the current object by assigning a new key or value.
 };
