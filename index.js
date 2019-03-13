@@ -26,5 +26,7 @@ let deleteFromObjectByKey = function(object, key) {
 let destructivelyDeleteFromObjectByKey = function(object, key) {
   object[key] = undefined;
   return object;
-    // Deletes key-value pair from original object destructively.
+    /*
+    Deletes key-value pair from original object destructively without using 'delete object.key' method.
+    */
 };
