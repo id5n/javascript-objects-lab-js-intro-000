@@ -22,3 +22,9 @@ let deleteFromObjectByKey = function(object, key) {
   'delete object.key' will delete the key-value pair from the object passed as an argument without mutating the original.
    */
 };
+
+let destructivelyDeleteFromObjectByKey = function(object, key) {
+  delete object.key;
+  return object;
+    // Deletes key-value pair from original object destructively.
+};
