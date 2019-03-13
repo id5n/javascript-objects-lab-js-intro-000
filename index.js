@@ -33,5 +33,5 @@ let destructivelyDeleteFromObjectByKey = function(object, key) {
 
 // Tests
 
-recipe1 = updateObjectWithKeyAndValue(recipes, 'omelette', '3 eggs');
-console.log(recipe1);
+updateObjectWithKeyAndValue(recipes, 'omelette', '3 eggs');
+console.log(recipes);
