@@ -14,3 +14,8 @@ let destructivelyUpdateObjectWithKeyAndValue = function(object, key, value) {
   return object;
   // Updates the current object by assigning a new key or value.
 };
+
+let deleteFromObjectByKey = function(object, key) {
+  
+
+}
