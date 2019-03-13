@@ -35,6 +35,6 @@ let destructivelyDeleteFromObjectByKey = function(object, key) {
 
 updateObjectWithKeyAndValue(recipes, 'omelette', '3 eggs');
 console.log("The original file looks like: ", recipes);
-console.log("But, there is a new object when using the non-destructive method: ", recipes, updateObjectWithKeyAndValue(recipes, 'omelette', '3 eggs'));
+console.log("But, there is a new object when using the non-destructive method: ", recipes, " and ", updateObjectWithKeyAndValue(recipes, 'omelette', '3 eggs'));
 destructivelyUpdateObjectWithKeyAndValue(recipes, 'omelette', '3 eggs');
 console.log("Using this destructive method, the original file is updated: ", recipes);
