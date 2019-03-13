@@ -34,4 +34,4 @@ let destructivelyDeleteFromObjectByKey = function(object, key) {
 // Tests
 
 updateObjectWithKeyAndValue(recipes, 'omelette', '3 eggs');
-console.log(recipes);
+console.log("The original file looks like: ", recipes);
